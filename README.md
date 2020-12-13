@@ -1,4 +1,4 @@
 # Proyecto-Facher
 Seguimiento FBI B)
 
-para ver todas las versiones, debes darle al maind y se iran organisando en patch.1.2.3 etc
+para ver todas las versiones, debes darle al main y se organizaran en patch.1.2.3 etc
