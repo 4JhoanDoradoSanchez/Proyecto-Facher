@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>crear cuenta</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/d92245a086.js" crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <img src="imagenes/fondo.svg" class="fondo">
+    <div class="contenedor-agrupar">
+
+        <div class="formulariodatos">
+
+            <div class="imagen">
+                <div class="img">
+                    <img src="imagenes/negocio.svg">
+                </div>
+
+            </div>
+
+            <form id="formulario" method="POST">
+                <img src="imagenes/logo pis.png" class="logo">
+                <h3>Registro de Cuenta Cliente</h3>
+
+                <div class="panel">
+                    <div class="entrada-div uno">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                            <h5>Nombre</h5>
+                        </div>
+                        <div class="input Nombre">
+                            <input type="text" placeholder="Juan Sebastian Luis Medina" name="nombre" id="nombre">
+                        </div>
+
+                    </div>
+
+
+                    <div class="entrada-div dos">
+                        <div class="i">
+                            <i class="fas fa-envelope"></i>
+                            <h5>Correo</h5>
+                        </div>
+                        <div class="input correo">
+                            <input type="email" placeholder="ejemplo@gmail.com" name="gmail" id="gmail">
+                        </div>
+                    </div>
+                </div>
+                <div class="panel dos">
+
+                    <div class="entrada-div cuatro">
+                        <div class="i">
+                            <i class="fas fa-qrcode"></i>
+                            <h5>Codigo</h5>
+                        </div>
+                        <div class="input codigo">
+                            <br>
+                            <input type="number" placeholder="1234" name="codigo" id="codigo">
+                        </div>
+                    </div>
+
+
+                    <div class="entrada-div tres">
+                        <div class="i">
+                            <i class="fas fa-building"></i>
+                            <h5>Tipo</h5>
+                        </div>
+                        <div class="input tipo">
+                            <br>
+                            <div class="select">
+
+                                <select id="lista" name="lista">
+                                        <option value="" disabled selected>Seleccionar</option>
+                                        <option value="c">Comidas
+                                        </option>
+                                        <option value="e">Entrgas</option>
+                                    </select>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="input-reload">
+
+                    <input type="submit" class="boton" value="Registrarse" id="boton">
+                    <div class="volver">
+                        <a id="volver">volver</a>
+                    </div>
+                </div>
+        </div>
+
+        </form>
+
+
+
+
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
