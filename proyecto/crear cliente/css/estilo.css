@@ -1,0 +1,217 @@
+    * {
+        transition: .3s;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    h3 {
+        font-size: 2.1rem;
+        text-transform: uppercase;
+        margin: 15px 0;
+    }
+    
+    .fondo {
+        position: fixed;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    
+    .contenedor-agrupar {
+        width: 100ww;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 7rem;
+        padding: 0 2rem;
+        text-align: center;
+    }
+    
+    .formulariodatos {
+        padding-left: 15%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form {
+        background-color: rgba(33, 187, 123, 0.863);
+        border-radius: 25px;
+        border: 1px rgb(33, 187, 123) solid;
+        padding: 18px;
+    }
+    
+    .i,
+    h3 {
+        color: whitesmoke;
+        padding: 5px;
+    }
+    
+    .i i {
+        padding-right: 5px;
+    }
+    
+    .entrada-div {
+        position: relative;
+        display: grid;
+        margin: 14px 0;
+        border-bottom: 1px solid #d9d9d927;
+    }
+    
+    .entrada-div.uno {
+        padding-right: 20px;
+    }
+    
+    .panel,
+    .i,
+    .panel.dos .entrada-div,
+    .entrada-div.cuatro i,
+    .entrada-div.cuatro input {
+        display: flex;
+    }
+    
+    .entrada-div.entrada-div.entrada-div.cuatro {
+        width: 52%;
+    }
+    
+    .input.codigo input {
+        width: 40%;
+        height: 50%;
+    }
+    
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        outline: none;
+        border: 0 !important;
+        border-radius: 50px;
+        background-color: whitesmoke;
+        background-image: none;
+        flex: 1;
+        padding: 0 .4rem;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .select {
+        position: relative;
+        display: flex;
+        width: 9em;
+        height: 2em;
+        line-height: 2;
+        background: whitesmoke;
+        border-radius: .25rem;
+    }
+    
+    select::-ms-expand {
+        display: none;
+    }
+    
+    .select {
+        padding: 5px;
+    }
+    
+    .select::after {
+        border-radius: 4px;
+        height: 32px;
+        content: '\25BC';
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 1em;
+        background: #2c9e76;
+        cursor: pointer;
+        pointer-events: none;
+        transition: .25s all ease;
+    }
+    
+    .select:hover::after {
+        color: whitesmoke;
+    }
+    
+    .input input {
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding: 0.3rem 0.5rem;
+        font-size: 1.2rem;
+    }
+    
+    .boton {
+        display: block;
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 1.2rem;
+        outline: none;
+        border: none;
+        border: 0 !important;
+        background-image: linear-gradient(to right, #2c9e76, #38e9ac, #32be8f);
+        cursor: pointer;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        background-size: 200%;
+        transition: .5s;
+    }
+    
+    .boton:hover {
+        background-position: right;
+    }
+    
+    div .imagen {
+        display: flex;
+        padding-right: 8%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    div .volver {
+        font-size: 2.3rem;
+    }
+    
+    .volver a {
+        display: block;
+        cursor: pointer;
+        padding-top: 10px;
+        text-transform: uppercase;
+        width: 100%;
+        height: 50px;
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 25px;
+        background-size: 200%;
+        background-image: linear-gradient(to right, #2c9e76, #38e9ac, #32be8f);
+        transition: .5s;
+    }
+    
+    .input-reload {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0.5rem;
+        justify-content: center;
+    }
+    
+    a:hover {
+        background-position: right;
+        transition: .5s;
+    }
+    
+    .imagen img {
+        width: 530px;
+    }
+    
+    form .logo {
+        width: 150px;
+    }
+    
+    form {
+        margin: 5px;
+    }

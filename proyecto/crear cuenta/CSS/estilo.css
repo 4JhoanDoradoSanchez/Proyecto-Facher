@@ -1,0 +1,131 @@
+* {
+    transition: .3s;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border: 0 !important;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+}
+
+.fondo {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.cont .contendor-agrupar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cont .contendor-agrupar .opcion {
+    margin-left: 100px;
+    padding-right: 0;
+}
+
+.cont {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contendor-agrupar .opcion {
+    width: 70%;
+}
+
+.cont .contendor-agrupar {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.logo {
+    display: block;
+    justify-items: center;
+    text-align: center;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.volver {
+    display: block;
+    justify-items: center;
+    text-align: center;
+}
+
+.volver input {
+    border-radius: 25px;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: .7rem 10rem;
+    color: #28a77a;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #a5e4cc, rgb(220, 250, 237), #a2dac6);
+    background-size: 200%;
+    transition: 1s;
+}
+
+.volver input:hover {
+    background-position: right;
+}
+
+.contendor-agrupar img {
+    width: 50%;
+    padding-bottom: 15%;
+}
+
+.opcion {
+    cursor: pointer;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0rem 1rem;
+    background-image: linear-gradient(to left, #2c9e76, #38e9ac, #32be8f);
+    background-size: 200%;
+    border-radius: 25px;
+}
+
+.opcion:hover {
+    background-position: right;
+    width: 73%;
+    padding: 10px;
+}
+
+.opcion .input {
+    display: block;
+    justify-items: center;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.opcion .input input {
+    border-radius: 25px;
+    background-color: whitesmoke;
+    color: #28a77a;
+    border: none;
+    cursor: pointer;
+    padding: 1.3rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #b9ddd0, #fff, #c8ebdf);
+    background-size: 200%;
+    transition: 1s;
+}
+
+.opcion .input input:hover {
+    background-position: right;
+}
